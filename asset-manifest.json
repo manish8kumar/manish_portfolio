@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/manish_portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/manish_portfolio/static/js/main.f201ab61.js",
+    "static/media/HeroImage.jpg": "/manish_portfolio/static/media/HeroImage.8ff2a3da0a0064b69fc3.jpg",
+    "index.html": "/manish_portfolio/index.html",
+    "main.bf538fe7.css.map": "/manish_portfolio/static/css/main.bf538fe7.css.map",
+    "main.f201ab61.js.map": "/manish_portfolio/static/js/main.f201ab61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.f201ab61.js"
+  ]
+}
