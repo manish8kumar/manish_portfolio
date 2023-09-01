@@ -78,26 +78,7 @@ export const skills = [
 ];
 
 export const experiences = [
-  // {
-  //   id: 1,
-  //   img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
-  //   role: "Fullstack Externship",
-  //   company: "Flipr",
-  //   date: "June 2023 - July 2023",
-  //   desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-  //   skills: [
-  //     "ReactJS",
-  //     "Redux",
-  //     "NodeJs",
-  //     "Material UI",
-  //     "HTML",
-  //     "CSS",
-  //     "JavaScript",
-  //     "Docker",
-  //     "AWS",
-  //     "MongoDB",
-  //   ],
-  // },
+  
 ];
 
 export const education = [
@@ -113,14 +94,14 @@ export const education = [
   {
     id: 1,
     school: "Bhopalwala Arya Sen. Sec. School,Sriganganagar",
-    date: "Apr 2018 - Apr 2019",
+    date: "Apr 2017 - Apr 2018",
     grade: "87.6%",
     desc: "I completed my class 12 high school education at Bhopalwala Arya Sen. Sec. School,Sriganganagar where I studied Science with Physics,Chemistry,Maths.",
   },
   {
     id: 2,
     school: "Little Star Children Sen. Sec. School,Kesrisinghpur",
-    date: "Apr 2016 - Apr 2017",
+    date: "Apr 2015 - Apr 2016",
     grade: "87.5%",
     desc: "I completed my class 10 education at Little Star Children Sen. Sec. School,Kesrisinghpur",
   },
