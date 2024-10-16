@@ -5,6 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
 
+
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
@@ -82,6 +83,17 @@ const Copyright = styled.p`
   font-size: 0.9rem;
   color: ${({ theme }) => theme.soft2};
   text-align: center;
+
+`;
+const LeetcodeIcon = styled.img`
+  width: 24px; /* Adjust the size of the icon */
+  height: 24px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 7px;
+  &:hover {
+    transform: scale(1.1);
+    background-color:  ${({ theme }) => theme.primary+90};
+  }
 `;
 
 function Footer() {
@@ -101,6 +113,9 @@ function Footer() {
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.leetcode} target="_blank" rel="noopener noreferrer">
+            <LeetcodeIcon src={'https://iili.io/2dq6PGn.png'} alt="Leetcode" />
+          </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 Manish Kumar. All rights reserved.

@@ -118,6 +118,7 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 `
 
 
@@ -130,7 +131,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_ylo8zj9', 'template_pkyepni', form.current, '7iequZm14qJgrTtAw')
+    emailjs.sendForm('service_m8due5p', 'template_pkyepni', form.current, '7iequZm14qJgrTtAw')
       .then((result) => {
         setOpen(true);
         form.current.reset();

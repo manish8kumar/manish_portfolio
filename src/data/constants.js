@@ -12,6 +12,7 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/manish8kumar/",
   insta: "https://www.instagram.com/manish_sarswat__/",
   facebook: "https://www.facebook.com/manish.sarswat.982",
+  leetcode: "https://leetcode.com/u/manish8kumar/",
 };
 
 export const skills = [
@@ -42,6 +43,11 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
+      {
+        name: "Tailwind Css",
+        image:
+          "https://i.postimg.cc/Sxx3m50W/tailwind-css.png",
+      },
     ],
   },
   {
@@ -53,6 +59,16 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
+      {
+        name: "CSharp",
+        image:
+          "https://i.postimg.cc/NFN8DdNc/csharp.png",
+      },
+      {
+        name: "Nodejs",
+        image:
+          "https://iili.io/2dfQ8t2.png",
+      },
     ],
   },
   {
@@ -61,7 +77,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://i.postimg.cc/6pHsRKVj/git-1.png",
       },
       {
         name: "GitHub",
@@ -78,8 +94,27 @@ export const skills = [
 ];
 
 export const experiences = [
-  
-];
+  {
+    id: 1,
+    img: "https://i.postimg.cc/QMRHRvZQ/download.jpg",  // You can replace this with the actual image link
+    role: "Associate Product Engineer Intern",
+    company: "DeltaX",
+    date: "May 2024 - September 2024",
+    desc: "Actively involved in both front-end and back-end development, working extensively with C#, SQL, and React.js, contributing to the development and maintenance of various software solutions.",
+    skills: [
+        "C#",
+        "SQL",
+        "React.js",
+        "REST APIs",
+
+
+    ],
+   // doc: "https://link-to-certification-or-document"  // Optional document or link
+}
+
+   
+  ];
+
 
 export const education = [
   {
@@ -93,6 +128,7 @@ export const education = [
   },
   {
     id: 1,
+    img:'https://i.postimg.cc/9MQNqWQg/images.jpg',
     school: "Bhopalwala Arya Sen. Sec. School,Sriganganagar",
     date: "Apr 2017 - Apr 2018",
     grade: "87.6%",
@@ -100,6 +136,7 @@ export const education = [
   },
   {
     id: 2,
+    img:'https://i.postimg.cc/VNkyPyCw/images-1.jpg',
     school: "Little Star Children Sen. Sec. School,Kesrisinghpur",
     date: "Apr 2015 - Apr 2016",
     grade: "87.5%",
@@ -109,7 +146,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
     title: "CurrentAffairs",
     date: "Jun 2022 - Jul 2022",
     description:
@@ -120,13 +157,14 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript",
+      "Api Handling"
     ],
     category: "web app",
     github: "https://github.com/manish8kumar/CurrentAffairs",
-    // webapp: "#",
+     webapp: "https://currentaffairs-news.netlify.app/",
   },
   {
-    id: 0,
+    id: 2,
     title: "Pandemic Management System",
     date: "Jan 2023 - Apr 2023",
     description:
@@ -151,6 +189,39 @@ export const projects = [
         github: "https://github.com/saurabh175",
       },
     ],
+  },
+  {
+    id: 3,
+    title: "Blogify",
+    date: "Sep 2024 - Sep 2024",
+    description:
+      "Blogify is a blog website that built using a modern tech stack, leveraging React for the front end, Tailwind CSS for styling, and Appwrite for backend services and authentication.The project also incorporates Redux for state management and react-hook-form for handling form inputs efficiently",
+    img:
+      "https://i.postimg.cc/bJhCfS2K/Screenshot-2024-10-11-110811-removebg-preview.png",
+    tags: [
+      "Tailwind CSS",
+      "JavaScript",
+      "Reactjs",
+      "redux",
+      "appwrite"
+    ],
+    category: "web app",
+    github: "https://github.com/manish8kumar/Blogify",
+    webapp: "https://blogify-two-topaz.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Twitter Sentiment words filter",
+    date: "Nov 2023 - Nov 2023",
+    description:
+      "This is a machine learning project used in twitter to filter the sentiment or offensive words from a tweet",
+    img:
+      "https://iili.io/2dfDVnV.png",
+    tags: [
+
+    ],
+    category: "machine learning",
+    github: "https://github.com/manish8kumar/Twitter-Sentiment-filter",
   },
 ];
 
